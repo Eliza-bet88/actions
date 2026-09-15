@@ -20,5 +20,5 @@ jobs:
       - name: Save file2
       - run: | 
           git add file2.txt
-          git commit -m "update file2"
+          git commit -m "update file2" || echo "No changes"
           git push
