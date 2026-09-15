@@ -18,7 +18,7 @@ jobs:
         run: python task.py
 
       - name: Save file2
-      - run: | 
+        run: | 
           git add file2.txt
           git commit -m "update file2" || true
           git push
